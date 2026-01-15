@@ -1,0 +1,3 @@
+[submodule "src/main/resources/BE-one-stock-config"]
+	path = src/main/resources/BE-one-stock-config
+	url = https://github.com/one-stock/BE-one-stock-config.git

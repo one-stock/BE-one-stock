@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: onestock
+  config:
+    import: BE-one-stock-config/application-local-db.yml
