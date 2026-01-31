@@ -3,3 +3,10 @@ spring:
     name: onestock
   config:
     import: BE-one-stock-config/application-local-db.yml
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+    clean-disabled: false
+    out-of-order: true
