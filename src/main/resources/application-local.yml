@@ -7,6 +7,6 @@ spring:
     hibernate:
       ddl-auto: validate
   flyway:
-    enabled: true
+    enabled: false
     clean-disabled: false
     out-of-order: true
